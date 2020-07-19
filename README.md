@@ -1,2 +1,2 @@
 # minecraft-plugins
- Contém alguns plugins da minha workspace
+ Contém alguns plugins da minha workspace.

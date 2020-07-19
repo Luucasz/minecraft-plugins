@@ -1,0 +1,7 @@
+name: IR_Luz
+version: 1.0
+author: ImRecraft_
+main: net.recraft.luz.Main
+commands:
+ luz:
+  aliases: lanterna

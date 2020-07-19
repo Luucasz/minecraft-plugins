@@ -1,0 +1,17 @@
+############################
+## DICORD: ImRecraft#0766 ##
+## Plugin: IR_Luz         ##
+############################
+
+#Permission: luz.usar
+
+mensagem_sem_permissao: '&cVocÃª nÃ£o tem permissÃ£o para utilizar este comando.'
+
+mensagem_luz_ativada: '&aLuz ativada.'
+
+mensagem_luz_desativada: '&cLuz desativada.'
+
+#Delay (se nao quiser delay é só deixar em 0)
+#Delay em segundos.
+
+Delay: 5

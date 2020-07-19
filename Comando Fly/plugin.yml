@@ -1,0 +1,7 @@
+name: IR_Fly
+version: 1.0
+author: ImRecraft_
+main: net.recraft.fly.Main
+commands:
+ fly:
+  aliases: voar

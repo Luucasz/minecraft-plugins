@@ -45,12 +45,12 @@ public class ComandoFly implements CommandExecutor {
                         p.sendMessage(ChatColor.RED + "Este jogador não existe, ou ele está offline.");
                         return true;
                     } else {
-                        if (p.getAllowFlight()) {
-                            p.setAllowFlight(false);
+                        if (target.getAllowFlight()) {
+                            target.setAllowFlight(false);
                             p.sendMessage(ChatColor.RED + "O fly do player " + target.getName() + " foi desativado.");
                             p.playSound(p.getLocation(), Sound.ANVIL_BREAK, 10, 10);
                         } else {
-                            p.setAllowFlight(true);
+                            target.setAllowFlight(true);
                             p.sendMessage(ChatColor.GREEN + "O fly do player " + target.getName() + " foi ativado.");
                             p.playSound(p.getLocation(), Sound.LEVEL_UP, 5, 1);
                             return true;
